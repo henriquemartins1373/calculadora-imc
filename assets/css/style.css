@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
+
+:root {
+    --background-color: #340068;
+    --background-color-shadow: rgba(0, 0, 0, 0.74);
+    --primary-color: #06D6A0;
+    --secundary-color: #FF6978;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: var(--background-color);
+    max-width: 640px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--background-color-shadow)
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+th , td{
+    padding-right: 50px;
+    text-align: left;
+    color: #fff;
+}
+
+th {
+    color: #FF6978;
+}
+
+h1 span {
+    color: var(--primary-color);
+}
+
+form label, form input, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input {
+    font-weight: bolder;
+    padding: 4px;
+    line-height: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+#altura {
+    background: #fff url(img/altura.svg) no-repeat right;
+}
+
+#peso {
+    background: #fff url(img/peso.svg) no-repeat right;
+}
+
+form input:focus {
+    border: none
+}
+
+form button {
+    line-height: 30px;
+    font-weight: bolder;
+    color: var(--primary-color);
+    background: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+button:active {
+    background: var(--secundary-color);
+    border-color: var(--secundary-color);
+    transition: 1ms;
+}
+
+footer p {
+    color: #fff;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.paragrafo-positivo, .paragrafo-negativo {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.paragrafo-positivo {
+    background: var(--primary-color);
+}
+
+.paragrafo-negativo {
+    background: var(--secundary-color);
+}
+

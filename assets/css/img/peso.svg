@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_5" data-name="Grupo 5" transform="translate(-80 -24)">
+    <g id="Retângulo_37" data-name="Retângulo 37" transform="translate(80 24)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="kg" transform="translate(96 46)" fill="#ff6978" font-size="17" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.016em"><tspan x="-11.501" y="0">kg</tspan></text>
+  </g>
+</svg>
